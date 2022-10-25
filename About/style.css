@@ -1,0 +1,72 @@
+body{
+    background: turquoise;
+}
+
+/* menu */
+.logo{
+    height: 20px;
+}
+
+nav{
+    background: #333;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    display: block;
+}
+
+nav a:hover{
+    background: #555;
+}
+
+nav li{
+    text-align: center;
+    border: 1px solid #fff;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    flex:1 1 0;
+}
+/* ~menu */
+
+/* content */
+.Experience, .Education{
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 70px;
+}
+
+.heading{
+    text-align: center;
+    font-size: 25px;
+}
+
+.small{
+    font-size: 12px;
+}
+
+.main li{
+    border: none;
+    padding: 10px;
+}
+/* ~content */
+
+/* flexbox */
+.main{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* ~flexbox */

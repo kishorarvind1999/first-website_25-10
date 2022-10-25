@@ -1,0 +1,94 @@
+body{
+    background-color: turquoise;
+}
+
+/* rainbow */
+.rainbow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.circle{
+    border: 2px solid black;
+    border-radius: 100%;
+    margin: 30px;
+}
+
+.violet{
+    height: 40px;
+    width: 40px;
+    background-color: violet;
+}
+
+.indigo{
+    background-color: indigo;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.red{
+    background-color: red;
+}
+/* ~rainbow */
+
+/* menu */
+.logo{
+    height: 20px;
+}
+
+nav{
+    background: #333;
+}
+
+li{
+    border: 1px solid #fff;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+nav a:hover{
+    background: #555;
+}
+/* ~menu */
+
+/* video */
+.video{
+    height: 40px;
+}
+
+/* flexbox */
+nav ul{
+    display: flex;
+}
+
+nav li{
+    flex: 1 1 0;
+}
+/* ~flexbox */
