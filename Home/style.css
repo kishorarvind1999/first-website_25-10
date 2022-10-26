@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -22,10 +23,6 @@ nav ul{
     padding: 0;
 }
 
-li{
-    border: 1px solid white;
-}
-
 nav a{
     text-decoration: none;
     color: #fff;
@@ -44,6 +41,7 @@ nav ul{
 
 nav li{
     flex: 1 1 0;
+    border: 1px solid white;
 }
 /*/menu*/
 

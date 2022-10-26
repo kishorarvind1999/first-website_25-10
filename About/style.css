@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background: turquoise;
 }
@@ -9,6 +15,7 @@ body{
 
 nav{
     background: #333;
+    margin: 10px;
 }
 
 nav ul{
@@ -21,15 +28,11 @@ nav a{
     color: #fff;
     padding: 10px;
     display: block;
+    text-align: center;
 }
 
 nav a:hover{
     background: #555;
-}
-
-nav li{
-    text-align: center;
-    border: 1px solid #fff;
 }
 
 nav ul{
@@ -37,6 +40,7 @@ nav ul{
 }
 
 nav li{
+    border: 1px solid #fff;
     flex:1 1 0;
 }
 /* ~menu */

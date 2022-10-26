@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-color: turquoise;
 }
@@ -35,6 +41,7 @@ li{
 
 nav{
     background: #333;
+    margin: 10px;
 }
 
 nav ul{
